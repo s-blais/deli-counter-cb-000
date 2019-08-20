@@ -8,7 +8,7 @@ def line (katz_deli)
       line_output.concat ("#{line_position}. customer")
       line_position += 1
     end
-    line_output
+    puts line_output
   end
 end
 
