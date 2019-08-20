@@ -5,7 +5,7 @@ def line (katz_deli)
     line_output = "The line is currently:"
     line_position = 1
     katz_deli.each do |customer|
-      line_output.concat ("#{line_position}. customer")
+      line_output.concat (" #{line_position}. #{customer}")
       line_position += 1
     end
     puts line_output
